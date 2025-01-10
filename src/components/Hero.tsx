@@ -27,22 +27,24 @@ export const Hero = () => {
       <Carousel className="w-full h-screen">
         <CarouselContent>
           {heroImages.map((image, index) => (
-            <CarouselItem key={index} className="relative">
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black/20" />
+            <CarouselItem key={index}>
+              <div className="relative w-full h-screen">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/20" />
+              </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4 text-white border-white hover:bg-white/20" />
-        <CarouselNext className="right-4 text-white border-white hover:bg-white/20" />
+        <CarouselPrevious className="absolute left-4 z-30 text-white border-white hover:bg-white/20" />
+        <CarouselNext className="absolute right-4 z-30 text-white border-white hover:bg-white/20" />
       </Carousel>
       
       {/* Navigation Bar */}
-      <div className="absolute top-0 z-20 w-full">
+      <div className="absolute top-0 z-40 w-full">
         <div className="container mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-white">Signal Studios</h1>
