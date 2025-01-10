@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 
-const researchProjects = [
+const fieldWorkProjects = [
   {
     id: 1,
     title: "Urban Heat Island Mitigation",
@@ -26,16 +26,16 @@ const researchProjects = [
 
 export const FieldResearch = () => {
   return (
-    <section id="field-research" className="py-20 bg-white px-6">
+    <section id="field-work" className="py-20 bg-white px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Field Research
+          Field Work
         </h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Exploring the impact of ground cover solutions through rigorous field studies and real-world applications
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {researchProjects.map((project) => (
+          {fieldWorkProjects.map((project) => (
             <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <img
                 src={project.image}
