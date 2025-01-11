@@ -1,11 +1,8 @@
 import { Hero } from "./Hero";
 import { useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
-const Layout = ({ children }: LayoutProps) => {
+const Layout = () => {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
 
@@ -19,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="absolute inset-0 bg-black/40" />
         </div>
       )}
-      {children}
+      <Outlet />
     </>
   );
 };
