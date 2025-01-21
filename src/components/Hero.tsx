@@ -4,12 +4,12 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const heroImages = [
   {
-    src: "/lovable-uploads/3abbb9e1-bb75-4549-a0a7-616c8f9550c9.png",
-    alt: "People gathered on a hilltop against blue sky with clouds"
-  },
-  {
     src: "/lovable-uploads/265cf478-2f23-4816-acec-f0660a0648e7.png",
     alt: "Circular architectural structure against cloudy sky"
+  },
+  {
+    src: "/lovable-uploads/3abbb9e1-bb75-4549-a0a7-616c8f9550c9.png",
+    alt: "People gathered on a hilltop against blue sky with clouds"
   },
   {
     src: "/lovable-uploads/93719b27-d490-4ff3-8fdb-8730de57b018.png",
