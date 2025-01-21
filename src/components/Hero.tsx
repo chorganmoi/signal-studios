@@ -4,16 +4,20 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const heroImages = [
   {
-    src: "/lovable-uploads/39fab2dc-949a-4902-861f-1d7e09428aba.png",
-    alt: "Landscape view of a city skyline at sunset"
+    src: "/lovable-uploads/265cf478-2f23-4816-acec-f0660a0648e7.png",
+    alt: "Circular architectural structure against cloudy sky"
   },
   {
-    src: "/lovable-uploads/ac6b4c6d-c1bc-4b62-aadf-908ac422993b.png",
+    src: "/lovable-uploads/3abbb9e1-bb75-4549-a0a7-616c8f9550c9.png",
     alt: "People gathered on a hilltop against blue sky with clouds"
   },
   {
-    src: "/lovable-uploads/a7471a0e-a2c2-4add-8126-1ce944369826.png",
-    alt: "Sunset view with silhouettes"
+    src: "/lovable-uploads/93719b27-d490-4ff3-8fdb-8730de57b018.png",
+    alt: "Landscape view of a city skyline at sunset"
+  },
+  {
+    src: "/lovable-uploads/a74bf87b-6393-4c50-8251-f2172c47e4eb.png",
+    alt: "Silhouettes of people watching sunset from a viewpoint"
   }
 ];
 
