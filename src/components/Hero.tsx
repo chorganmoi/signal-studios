@@ -8,16 +8,12 @@ const heroImages = [
     alt: "Landscape view of a city skyline at sunset"
   },
   {
-    src: "/lovable-uploads/650c0dfd-a035-4429-aade-b9accb64ba6b.png",
-    alt: "Circular structure against cloudy sky"
+    src: "/lovable-uploads/ac6b4c6d-c1bc-4b62-aadf-908ac422993b.png",
+    alt: "People gathered on a hilltop against blue sky with clouds"
   },
   {
     src: "/lovable-uploads/a7471a0e-a2c2-4add-8126-1ce944369826.png",
     alt: "Sunset view with silhouettes"
-  },
-  {
-    src: "/lovable-uploads/bca683ed-1319-4f11-82cb-ea233c5c083d.png",
-    alt: "Mountain landscape with dramatic sunset"
   }
 ];
 
